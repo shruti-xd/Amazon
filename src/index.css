@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif ;
+}
+p div input{
+  margin: 0;
+  padding: 0;
+}
+.nav-bar{
+  width: 100%;
+  background-color: #131921;
+  display: flex;
+  justify-content: space-between;
+  padding: 9px 8px 8px 12px;
+  color: white;
+}
+/* first-box */
+.logo{
+   width: 11%;
+}
+.image{
+  width: 95px; 
+}
+.dot-in{
+  position: relative;
+  bottom: 18px;
+  
+}
+/* thirth-box */
+.input-text{
+    width: 43%;
+    display: flex;
+    justify-content: space-between;
+}
+.input{
+   width: 100%;
+   padding: 10px;
+   border-radius: 6px;
+   border: 0;
+}
+.head {
+  padding: 4px;
+  font-size: 15px;
+  margin: 4px;
+
+}
+.tail{
+  border-radius: 2px;
+  font-size: 19px;
+  padding: 2px;
+  background-color:#febd69 ;
+}
+
+/* fourth-box */
+.icon-flag {
+  width: 3%;
+  font-size: 25px;
+  padding: 4px;
+}
+
+/* fifth-box */
+.sign-In{
+  width: 10%;
+  text-align: center;
+}
+/* sixth-box */
+.Order{
+  width: 10%;
+  text-align: center;
+}
+/* seventh-box */
+.cart{
+  width: 4%;
+  font-size: 25px;
+  padding: 4px;
+}
+.border{
+  border: 1px solid red;
+}
+.lowerheader{
+  background-color: #232f3e;
+  width: 100%;
+  padding: 3px;
+}
+.smallbox{
+  width: 35%;
+}
+.items{
+  display: flex;
+  justify-content:space-evenly;
+  color: white;
+  list-style: none;
+}
+/* main-components */
+.first-component{
+  width: 16%;
+  border: 1px solid green;
+  margin: auto;
+}
+.showing-image{
+   width: 100%;
+   text-align: center;
+   border: 1px solid red;
+   margin-bottom: 13px;
+}
+.item{
+  width: 127px;
+}
+.container{
+  text-align: center;
+}
+.product-name{
+  margin-bottom: 3px;
+}
+.product-description{
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+.price{
+  width: 74%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 29px;
+  margin-bottom: 4px;
+}
+.original-price{
+  text-decoration: line-through;
+  font-size: 14px;
+}
+.add-cart{
+  background-color: #febd69;
+  color: black;
+  border: none;
+  font-size: 17px;
+  padding: 4px;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+
